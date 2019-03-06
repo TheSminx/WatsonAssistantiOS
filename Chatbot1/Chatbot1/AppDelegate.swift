@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Chatbot1
+//  ChatBot1
 //
 //  Created by Edoardo Smimmo on 06/03/2019.
 //  Copyright © 2019 Lezioni IBM. All rights reserved.

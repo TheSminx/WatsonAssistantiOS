@@ -1,6 +1,6 @@
 //
-//  Chatbot1UITests.swift
-//  Chatbot1UITests
+//  ChatBot1UITests.swift
+//  ChatBot1UITests
 //
 //  Created by Edoardo Smimmo on 06/03/2019.
 //  Copyright © 2019 Lezioni IBM. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Chatbot1UITests: XCTestCase {
+class ChatBot1UITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
