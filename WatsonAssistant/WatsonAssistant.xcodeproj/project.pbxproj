@@ -7,64 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		83A5F227223038BE00CC2D77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A5F226223038BE00CC2D77 /* AppDelegate.swift */; };
-		83A5F229223038BE00CC2D77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A5F228223038BE00CC2D77 /* ViewController.swift */; };
-		83A5F22C223038BE00CC2D77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A5F22A223038BE00CC2D77 /* Main.storyboard */; };
-		83A5F22E223038BF00CC2D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A5F22D223038BF00CC2D77 /* Assets.xcassets */; };
-		83A5F231223038BF00CC2D77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A5F22F223038BF00CC2D77 /* LaunchScreen.storyboard */; };
-		83A5F23C223038C000CC2D77 /* ChatBot1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A5F23B223038C000CC2D77 /* ChatBot1Tests.swift */; };
-		83A5F247223038C000CC2D77 /* ChatBot1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A5F246223038C000CC2D77 /* ChatBot1UITests.swift */; };
+		83C2390C22303B14000B7118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C2390B22303B14000B7118 /* AppDelegate.swift */; };
+		83C2390E22303B14000B7118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C2390D22303B14000B7118 /* ViewController.swift */; };
+		83C2391122303B14000B7118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C2390F22303B14000B7118 /* Main.storyboard */; };
+		83C2391322303B15000B7118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C2391222303B15000B7118 /* Assets.xcassets */; };
+		83C2391622303B15000B7118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C2391422303B15000B7118 /* LaunchScreen.storyboard */; };
+		83C2392122303B16000B7118 /* WatsonAssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C2392022303B16000B7118 /* WatsonAssistantTests.swift */; };
+		83C2392C22303B16000B7118 /* WatsonAssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C2392B22303B16000B7118 /* WatsonAssistantUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		83A5F238223038C000CC2D77 /* PBXContainerItemProxy */ = {
+		83C2391D22303B16000B7118 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 83A5F21B223038BE00CC2D77 /* Project object */;
+			containerPortal = 83C2390022303B14000B7118 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 83A5F222223038BE00CC2D77;
-			remoteInfo = ChatBot1;
+			remoteGlobalIDString = 83C2390722303B14000B7118;
+			remoteInfo = WatsonAssistant;
 		};
-		83A5F243223038C000CC2D77 /* PBXContainerItemProxy */ = {
+		83C2392822303B16000B7118 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 83A5F21B223038BE00CC2D77 /* Project object */;
+			containerPortal = 83C2390022303B14000B7118 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 83A5F222223038BE00CC2D77;
-			remoteInfo = ChatBot1;
+			remoteGlobalIDString = 83C2390722303B14000B7118;
+			remoteInfo = WatsonAssistant;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		83A5F223223038BE00CC2D77 /* ChatBot1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatBot1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		83A5F226223038BE00CC2D77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83A5F228223038BE00CC2D77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		83A5F22B223038BE00CC2D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		83A5F22D223038BF00CC2D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		83A5F230223038BF00CC2D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		83A5F232223038BF00CC2D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83A5F237223038C000CC2D77 /* ChatBot1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatBot1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		83A5F23B223038C000CC2D77 /* ChatBot1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBot1Tests.swift; sourceTree = "<group>"; };
-		83A5F23D223038C000CC2D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83A5F242223038C000CC2D77 /* ChatBot1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatBot1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		83A5F246223038C000CC2D77 /* ChatBot1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBot1UITests.swift; sourceTree = "<group>"; };
-		83A5F248223038C000CC2D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C2390822303B14000B7118 /* WatsonAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatsonAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C2390B22303B14000B7118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83C2390D22303B14000B7118 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83C2391022303B14000B7118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83C2391222303B15000B7118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83C2391522303B15000B7118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83C2391722303B15000B7118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C2391C22303B16000B7118 /* WatsonAssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatsonAssistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C2392022303B16000B7118 /* WatsonAssistantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatsonAssistantTests.swift; sourceTree = "<group>"; };
+		83C2392222303B16000B7118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C2392722303B16000B7118 /* WatsonAssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatsonAssistantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C2392B22303B16000B7118 /* WatsonAssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatsonAssistantUITests.swift; sourceTree = "<group>"; };
+		83C2392D22303B16000B7118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		83A5F220223038BE00CC2D77 /* Frameworks */ = {
+		83C2390522303B14000B7118 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83A5F234223038C000CC2D77 /* Frameworks */ = {
+		83C2391922303B16000B7118 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83A5F23F223038C000CC2D77 /* Frameworks */ = {
+		83C2392422303B16000B7118 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,137 +74,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		83A5F21A223038BE00CC2D77 = {
+		83C238FF22303B14000B7118 = {
 			isa = PBXGroup;
 			children = (
-				83A5F225223038BE00CC2D77 /* ChatBot1 */,
-				83A5F23A223038C000CC2D77 /* ChatBot1Tests */,
-				83A5F245223038C000CC2D77 /* ChatBot1UITests */,
-				83A5F224223038BE00CC2D77 /* Products */,
+				83C2390A22303B14000B7118 /* WatsonAssistant */,
+				83C2391F22303B16000B7118 /* WatsonAssistantTests */,
+				83C2392A22303B16000B7118 /* WatsonAssistantUITests */,
+				83C2390922303B14000B7118 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		83A5F224223038BE00CC2D77 /* Products */ = {
+		83C2390922303B14000B7118 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83A5F223223038BE00CC2D77 /* ChatBot1.app */,
-				83A5F237223038C000CC2D77 /* ChatBot1Tests.xctest */,
-				83A5F242223038C000CC2D77 /* ChatBot1UITests.xctest */,
+				83C2390822303B14000B7118 /* WatsonAssistant.app */,
+				83C2391C22303B16000B7118 /* WatsonAssistantTests.xctest */,
+				83C2392722303B16000B7118 /* WatsonAssistantUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		83A5F225223038BE00CC2D77 /* ChatBot1 */ = {
+		83C2390A22303B14000B7118 /* WatsonAssistant */ = {
 			isa = PBXGroup;
 			children = (
-				83A5F226223038BE00CC2D77 /* AppDelegate.swift */,
-				83A5F228223038BE00CC2D77 /* ViewController.swift */,
-				83A5F22A223038BE00CC2D77 /* Main.storyboard */,
-				83A5F22D223038BF00CC2D77 /* Assets.xcassets */,
-				83A5F22F223038BF00CC2D77 /* LaunchScreen.storyboard */,
-				83A5F232223038BF00CC2D77 /* Info.plist */,
+				83C2390B22303B14000B7118 /* AppDelegate.swift */,
+				83C2390D22303B14000B7118 /* ViewController.swift */,
+				83C2390F22303B14000B7118 /* Main.storyboard */,
+				83C2391222303B15000B7118 /* Assets.xcassets */,
+				83C2391422303B15000B7118 /* LaunchScreen.storyboard */,
+				83C2391722303B15000B7118 /* Info.plist */,
 			);
-			path = ChatBot1;
+			path = WatsonAssistant;
 			sourceTree = "<group>";
 		};
-		83A5F23A223038C000CC2D77 /* ChatBot1Tests */ = {
+		83C2391F22303B16000B7118 /* WatsonAssistantTests */ = {
 			isa = PBXGroup;
 			children = (
-				83A5F23B223038C000CC2D77 /* ChatBot1Tests.swift */,
-				83A5F23D223038C000CC2D77 /* Info.plist */,
+				83C2392022303B16000B7118 /* WatsonAssistantTests.swift */,
+				83C2392222303B16000B7118 /* Info.plist */,
 			);
-			path = ChatBot1Tests;
+			path = WatsonAssistantTests;
 			sourceTree = "<group>";
 		};
-		83A5F245223038C000CC2D77 /* ChatBot1UITests */ = {
+		83C2392A22303B16000B7118 /* WatsonAssistantUITests */ = {
 			isa = PBXGroup;
 			children = (
-				83A5F246223038C000CC2D77 /* ChatBot1UITests.swift */,
-				83A5F248223038C000CC2D77 /* Info.plist */,
+				83C2392B22303B16000B7118 /* WatsonAssistantUITests.swift */,
+				83C2392D22303B16000B7118 /* Info.plist */,
 			);
-			path = ChatBot1UITests;
+			path = WatsonAssistantUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		83A5F222223038BE00CC2D77 /* ChatBot1 */ = {
+		83C2390722303B14000B7118 /* WatsonAssistant */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83A5F24B223038C000CC2D77 /* Build configuration list for PBXNativeTarget "ChatBot1" */;
+			buildConfigurationList = 83C2393022303B16000B7118 /* Build configuration list for PBXNativeTarget "WatsonAssistant" */;
 			buildPhases = (
-				83A5F21F223038BE00CC2D77 /* Sources */,
-				83A5F220223038BE00CC2D77 /* Frameworks */,
-				83A5F221223038BE00CC2D77 /* Resources */,
+				83C2390422303B14000B7118 /* Sources */,
+				83C2390522303B14000B7118 /* Frameworks */,
+				83C2390622303B14000B7118 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ChatBot1;
-			productName = ChatBot1;
-			productReference = 83A5F223223038BE00CC2D77 /* ChatBot1.app */;
+			name = WatsonAssistant;
+			productName = WatsonAssistant;
+			productReference = 83C2390822303B14000B7118 /* WatsonAssistant.app */;
 			productType = "com.apple.product-type.application";
 		};
-		83A5F236223038C000CC2D77 /* ChatBot1Tests */ = {
+		83C2391B22303B16000B7118 /* WatsonAssistantTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83A5F24E223038C000CC2D77 /* Build configuration list for PBXNativeTarget "ChatBot1Tests" */;
+			buildConfigurationList = 83C2393322303B16000B7118 /* Build configuration list for PBXNativeTarget "WatsonAssistantTests" */;
 			buildPhases = (
-				83A5F233223038C000CC2D77 /* Sources */,
-				83A5F234223038C000CC2D77 /* Frameworks */,
-				83A5F235223038C000CC2D77 /* Resources */,
+				83C2391822303B16000B7118 /* Sources */,
+				83C2391922303B16000B7118 /* Frameworks */,
+				83C2391A22303B16000B7118 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				83A5F239223038C000CC2D77 /* PBXTargetDependency */,
+				83C2391E22303B16000B7118 /* PBXTargetDependency */,
 			);
-			name = ChatBot1Tests;
-			productName = ChatBot1Tests;
-			productReference = 83A5F237223038C000CC2D77 /* ChatBot1Tests.xctest */;
+			name = WatsonAssistantTests;
+			productName = WatsonAssistantTests;
+			productReference = 83C2391C22303B16000B7118 /* WatsonAssistantTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		83A5F241223038C000CC2D77 /* ChatBot1UITests */ = {
+		83C2392622303B16000B7118 /* WatsonAssistantUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83A5F251223038C000CC2D77 /* Build configuration list for PBXNativeTarget "ChatBot1UITests" */;
+			buildConfigurationList = 83C2393622303B16000B7118 /* Build configuration list for PBXNativeTarget "WatsonAssistantUITests" */;
 			buildPhases = (
-				83A5F23E223038C000CC2D77 /* Sources */,
-				83A5F23F223038C000CC2D77 /* Frameworks */,
-				83A5F240223038C000CC2D77 /* Resources */,
+				83C2392322303B16000B7118 /* Sources */,
+				83C2392422303B16000B7118 /* Frameworks */,
+				83C2392522303B16000B7118 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				83A5F244223038C000CC2D77 /* PBXTargetDependency */,
+				83C2392922303B16000B7118 /* PBXTargetDependency */,
 			);
-			name = ChatBot1UITests;
-			productName = ChatBot1UITests;
-			productReference = 83A5F242223038C000CC2D77 /* ChatBot1UITests.xctest */;
+			name = WatsonAssistantUITests;
+			productName = WatsonAssistantUITests;
+			productReference = 83C2392722303B16000B7118 /* WatsonAssistantUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		83A5F21B223038BE00CC2D77 /* Project object */ = {
+		83C2390022303B14000B7118 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Lezioni IBM";
 				TargetAttributes = {
-					83A5F222223038BE00CC2D77 = {
+					83C2390722303B14000B7118 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					83A5F236223038C000CC2D77 = {
+					83C2391B22303B16000B7118 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 83A5F222223038BE00CC2D77;
+						TestTargetID = 83C2390722303B14000B7118;
 					};
-					83A5F241223038C000CC2D77 = {
+					83C2392622303B16000B7118 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 83A5F222223038BE00CC2D77;
+						TestTargetID = 83C2390722303B14000B7118;
 					};
 				};
 			};
-			buildConfigurationList = 83A5F21E223038BE00CC2D77 /* Build configuration list for PBXProject "ChatBot1" */;
+			buildConfigurationList = 83C2390322303B14000B7118 /* Build configuration list for PBXProject "WatsonAssistant" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -212,37 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 83A5F21A223038BE00CC2D77;
-			productRefGroup = 83A5F224223038BE00CC2D77 /* Products */;
+			mainGroup = 83C238FF22303B14000B7118;
+			productRefGroup = 83C2390922303B14000B7118 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83A5F222223038BE00CC2D77 /* ChatBot1 */,
-				83A5F236223038C000CC2D77 /* ChatBot1Tests */,
-				83A5F241223038C000CC2D77 /* ChatBot1UITests */,
+				83C2390722303B14000B7118 /* WatsonAssistant */,
+				83C2391B22303B16000B7118 /* WatsonAssistantTests */,
+				83C2392622303B16000B7118 /* WatsonAssistantUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		83A5F221223038BE00CC2D77 /* Resources */ = {
+		83C2390622303B14000B7118 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83A5F231223038BF00CC2D77 /* LaunchScreen.storyboard in Resources */,
-				83A5F22E223038BF00CC2D77 /* Assets.xcassets in Resources */,
-				83A5F22C223038BE00CC2D77 /* Main.storyboard in Resources */,
+				83C2391622303B15000B7118 /* LaunchScreen.storyboard in Resources */,
+				83C2391322303B15000B7118 /* Assets.xcassets in Resources */,
+				83C2391122303B14000B7118 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83A5F235223038C000CC2D77 /* Resources */ = {
+		83C2391A22303B16000B7118 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83A5F240223038C000CC2D77 /* Resources */ = {
+		83C2392522303B16000B7118 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,59 +252,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		83A5F21F223038BE00CC2D77 /* Sources */ = {
+		83C2390422303B14000B7118 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83A5F229223038BE00CC2D77 /* ViewController.swift in Sources */,
-				83A5F227223038BE00CC2D77 /* AppDelegate.swift in Sources */,
+				83C2390E22303B14000B7118 /* ViewController.swift in Sources */,
+				83C2390C22303B14000B7118 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83A5F233223038C000CC2D77 /* Sources */ = {
+		83C2391822303B16000B7118 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83A5F23C223038C000CC2D77 /* ChatBot1Tests.swift in Sources */,
+				83C2392122303B16000B7118 /* WatsonAssistantTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83A5F23E223038C000CC2D77 /* Sources */ = {
+		83C2392322303B16000B7118 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83A5F247223038C000CC2D77 /* ChatBot1UITests.swift in Sources */,
+				83C2392C22303B16000B7118 /* WatsonAssistantUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		83A5F239223038C000CC2D77 /* PBXTargetDependency */ = {
+		83C2391E22303B16000B7118 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 83A5F222223038BE00CC2D77 /* ChatBot1 */;
-			targetProxy = 83A5F238223038C000CC2D77 /* PBXContainerItemProxy */;
+			target = 83C2390722303B14000B7118 /* WatsonAssistant */;
+			targetProxy = 83C2391D22303B16000B7118 /* PBXContainerItemProxy */;
 		};
-		83A5F244223038C000CC2D77 /* PBXTargetDependency */ = {
+		83C2392922303B16000B7118 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 83A5F222223038BE00CC2D77 /* ChatBot1 */;
-			targetProxy = 83A5F243223038C000CC2D77 /* PBXContainerItemProxy */;
+			target = 83C2390722303B14000B7118 /* WatsonAssistant */;
+			targetProxy = 83C2392822303B16000B7118 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		83A5F22A223038BE00CC2D77 /* Main.storyboard */ = {
+		83C2390F22303B14000B7118 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				83A5F22B223038BE00CC2D77 /* Base */,
+				83C2391022303B14000B7118 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		83A5F22F223038BF00CC2D77 /* LaunchScreen.storyboard */ = {
+		83C2391422303B15000B7118 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				83A5F230223038BF00CC2D77 /* Base */,
+				83C2391522303B15000B7118 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		83A5F249223038C000CC2D77 /* Debug */ = {
+		83C2392E22303B16000B7118 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -373,7 +373,7 @@
 			};
 			name = Debug;
 		};
-		83A5F24A223038C000CC2D77 /* Release */ = {
+		83C2392F22303B16000B7118 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -428,164 +428,164 @@
 			};
 			name = Release;
 		};
-		83A5F24C223038C000CC2D77 /* Debug */ = {
+		83C2393122303B16000B7118 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TV9ZJ8XFV9;
-				INFOPLIST_FILE = ChatBot1/Info.plist;
+				INFOPLIST_FILE = WatsonAssistant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = lezioni.IBM.it.ChatBot1;
+				PRODUCT_BUNDLE_IDENTIFIER = lezioni.IBM.it.WatsonAssistant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		83A5F24D223038C000CC2D77 /* Release */ = {
+		83C2393222303B16000B7118 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TV9ZJ8XFV9;
-				INFOPLIST_FILE = ChatBot1/Info.plist;
+				INFOPLIST_FILE = WatsonAssistant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = lezioni.IBM.it.ChatBot1;
+				PRODUCT_BUNDLE_IDENTIFIER = lezioni.IBM.it.WatsonAssistant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		83A5F24F223038C000CC2D77 /* Debug */ = {
+		83C2393422303B16000B7118 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TV9ZJ8XFV9;
-				INFOPLIST_FILE = ChatBot1Tests/Info.plist;
+				INFOPLIST_FILE = WatsonAssistantTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = lezioni.IBM.it.ChatBot1Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = lezioni.IBM.it.WatsonAssistantTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatBot1.app/ChatBot1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatsonAssistant.app/WatsonAssistant";
 			};
 			name = Debug;
 		};
-		83A5F250223038C000CC2D77 /* Release */ = {
+		83C2393522303B16000B7118 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TV9ZJ8XFV9;
-				INFOPLIST_FILE = ChatBot1Tests/Info.plist;
+				INFOPLIST_FILE = WatsonAssistantTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = lezioni.IBM.it.ChatBot1Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = lezioni.IBM.it.WatsonAssistantTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatBot1.app/ChatBot1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatsonAssistant.app/WatsonAssistant";
 			};
 			name = Release;
 		};
-		83A5F252223038C000CC2D77 /* Debug */ = {
+		83C2393722303B16000B7118 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TV9ZJ8XFV9;
-				INFOPLIST_FILE = ChatBot1UITests/Info.plist;
+				INFOPLIST_FILE = WatsonAssistantUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = lezioni.IBM.it.ChatBot1UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = lezioni.IBM.it.WatsonAssistantUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ChatBot1;
+				TEST_TARGET_NAME = WatsonAssistant;
 			};
 			name = Debug;
 		};
-		83A5F253223038C000CC2D77 /* Release */ = {
+		83C2393822303B16000B7118 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TV9ZJ8XFV9;
-				INFOPLIST_FILE = ChatBot1UITests/Info.plist;
+				INFOPLIST_FILE = WatsonAssistantUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = lezioni.IBM.it.ChatBot1UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = lezioni.IBM.it.WatsonAssistantUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ChatBot1;
+				TEST_TARGET_NAME = WatsonAssistant;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83A5F21E223038BE00CC2D77 /* Build configuration list for PBXProject "ChatBot1" */ = {
+		83C2390322303B14000B7118 /* Build configuration list for PBXProject "WatsonAssistant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83A5F249223038C000CC2D77 /* Debug */,
-				83A5F24A223038C000CC2D77 /* Release */,
+				83C2392E22303B16000B7118 /* Debug */,
+				83C2392F22303B16000B7118 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83A5F24B223038C000CC2D77 /* Build configuration list for PBXNativeTarget "ChatBot1" */ = {
+		83C2393022303B16000B7118 /* Build configuration list for PBXNativeTarget "WatsonAssistant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83A5F24C223038C000CC2D77 /* Debug */,
-				83A5F24D223038C000CC2D77 /* Release */,
+				83C2393122303B16000B7118 /* Debug */,
+				83C2393222303B16000B7118 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83A5F24E223038C000CC2D77 /* Build configuration list for PBXNativeTarget "ChatBot1Tests" */ = {
+		83C2393322303B16000B7118 /* Build configuration list for PBXNativeTarget "WatsonAssistantTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83A5F24F223038C000CC2D77 /* Debug */,
-				83A5F250223038C000CC2D77 /* Release */,
+				83C2393422303B16000B7118 /* Debug */,
+				83C2393522303B16000B7118 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83A5F251223038C000CC2D77 /* Build configuration list for PBXNativeTarget "ChatBot1UITests" */ = {
+		83C2393622303B16000B7118 /* Build configuration list for PBXNativeTarget "WatsonAssistantUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83A5F252223038C000CC2D77 /* Debug */,
-				83A5F253223038C000CC2D77 /* Release */,
+				83C2393722303B16000B7118 /* Debug */,
+				83C2393822303B16000B7118 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 83A5F21B223038BE00CC2D77 /* Project object */;
+	rootObject = 83C2390022303B14000B7118 /* Project object */;
 }
